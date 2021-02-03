@@ -3,7 +3,6 @@
 
 from PIL import Image
 import click
-import os.path
 
 
 @click.command()
