@@ -1,4 +1,4 @@
-# Converts image into ASCII representaion by using given char set
+# Converts image to ASCII representation by using given char set
 
 ```
 $ ./app --help
