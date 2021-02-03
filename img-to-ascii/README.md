@@ -17,3 +17,5 @@ Options:
   --help                   Show this message and exit.
 
 ```
+
+![sample](https://github.com/yell0w4x/playground/raw/main/img-to-ascii/sample.png)
