@@ -4,7 +4,7 @@
 $ ./app --help
 Usage: app.py [OPTIONS] FILE
 
-  Converts graphics FILE into ASCII and prints into stdout.
+  Converts graphics FILE to ASCII and prints into stdout.
 
 Options:
   -w, --max-width INTEGER  Limit given image width with  [default: 80]
