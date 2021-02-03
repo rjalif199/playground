@@ -12,7 +12,7 @@ import os.path
 @click.option('-s', '--char-set', default='@&#%:*~=-.', show_default=True, help='Char set to use for converting')
 @click.option('-f', '--factor', default=2, show_default=True, help='Squash height by this factor to make output look more natural')
 def main(file, max_width, char_set, factor):
-    """Converts graphics FILE into ASCII and prints into stdout."""
+    """Converts graphics FILE to ASCII and prints into stdout."""
 
     with open(file, mode='rb') as f:
         image = Image.open(f).convert('L')
