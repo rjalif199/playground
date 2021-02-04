@@ -29,10 +29,7 @@ def main(file, max_width, char_set, negative, factor):
             char_set = char_set[::-1]
         
         for y in range(image.height):
-            s = ''
-            for x in range(image.width):
-                s += char_set[data[image.width * y + x]]
-            print(s)
+            print(''.join(char_set[data[image.width * y + x]] for x in range(image.width)))
 
 
 if __name__ == '__main__':
