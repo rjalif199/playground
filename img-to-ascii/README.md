@@ -9,13 +9,13 @@ Usage: app.py [OPTIONS] FILE
 Options:
   -w, --max-width INTEGER  Limit given image width with  [default: 80]
   -s, --char-set TEXT      Char set to use for converting  [default:
-                           @&#%:*~=-.]
+                           .-~=*:%#&@]
 
-  -f, --factor INTEGER     Squash height by this factor to make output look
-                           more natural  [default: 2]
+  -n, --negative           Reverse char set  [default: False]
+  -f, --factor FLOAT       Squash height by this factor to make output look
+                           more natural  [default: 2.0]
 
   --help                   Show this message and exit.
-
 ```
 
 ![sample](https://github.com/yell0w4x/playground/raw/main/img-to-ascii/sample.png)
